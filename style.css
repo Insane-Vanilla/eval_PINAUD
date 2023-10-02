@@ -51,7 +51,7 @@ h2 {
             font-size: 20px;
         }
     }
-        @media screen and (min-width:640px) {
+        @media screen and (min-width:1240px) {
             h2 {
                 font-size: 30px;
             }
@@ -322,7 +322,7 @@ aside {
 }
 
 
-.layout1 {
+.conteneur1-1 {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -331,18 +331,18 @@ aside {
 }
 
     @media screen and (min-width:640px) {
-        .layout1 {
+        .conteneur1-1 {
             margin-top:12%;
         }
     }
         @media screen and (min-width:1024px) {
-            .layout1 {
+            .conteneur1-1{
                 margin-top:10%;
                 flex-wrap: wrap;
             }
         }
             @media screen and (min-width:1440px) {
-                .layout1 {
+                .conteneur1-1 {
                     margin-top:7%;
                     flex-wrap: wrap;
                     width: 60%;
@@ -405,7 +405,7 @@ aside {
 }
 
     @media screen and (min-width:640px) {
-        .jv{
+        .jv {
             width: 150px;
             height: 210px;
             margin-right: 10px;
@@ -500,8 +500,8 @@ aside {
             }
         }
 
-/*==2.4 dernières actus== */
 
+/*==2.4 dernières actus== */
 
 .date {
     font-family:'Montserrat', sans-serif;
@@ -509,11 +509,11 @@ aside {
     margin-bottom: -10px;
 }
 
-@media screen and (min-width:640px) {
-    .date {
-        margin-bottom: -10px;
+    @media screen and (min-width:640px) {
+        .date {
+            margin-bottom: -10px;
+        }
     }
-}
 
 .fete1 {
     width: 40%;
@@ -523,11 +523,11 @@ aside {
     margin-bottom: 2px;
 }
 
-@media screen and (min-width:640px) {
-    .fete1 {
-        margin-right: 10px;
+    @media screen and (min-width:640px) {
+        .fete1 {
+            margin-right: 10px;
+        }
     }
-}
 
 .degats {
     width: 32%;
@@ -560,7 +560,6 @@ aside {
     text-align: justify;
 }
 
-
 .suite:active, .suite:link, .suite:visited {
     color: grey;
 }
@@ -577,8 +576,7 @@ aside {
         .imghp {
             width: 60px;
         }
-    
-}
+    }
 
 .hautpage:link, .hautpage:active {
     color:black;
@@ -755,7 +753,7 @@ aside {
     display:inline-grid;
     justify-content:center;
     align-items:center;
-    background:#fff;
+    background:white;
     border-radius:5px;
     border: solid 0.5px grey;
 
@@ -771,26 +769,10 @@ aside {
         font-weight:600;
         margin-left:10px;
     }
-    
-    .nav{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        text-decoration:none;
-        color:#0a3d62;
-        width:40px;
-        height:40px;
-        border-radius:40px;
-        transition-duration:.2s;
-        position:relative;
-      
-        &:hover{
-        background:#eee;
-      }
     }
   }
   
-  .days{
+.days{
     display: grid;
     justify-content:center;
     text-align: center;
@@ -798,13 +780,13 @@ aside {
     grid-template-columns: repeat(7, 1fr);
     color:rgb(21, 77, 48);
     font-family: 'Advent Pro', sans-serif;
-  }
+}
   
-  .dates{
+.dates {
     display:grid;
     grid-template-columns: repeat(7, 1fr);
     
-    .button3{
+    .button3 {
       color: black;
       cursor:pointer;
       outline:0;
@@ -839,7 +821,7 @@ aside {
       }
     }
   }
-}
+
 
     @media screen and (min-width:640px) {
         .calendar {
@@ -872,7 +854,7 @@ aside {
     }
 
     @media screen and (min-width:1024px) {
-        .article6 {
+        .article5 {
             margin-left:20%;
         }
     }
@@ -890,7 +872,7 @@ aside {
 }
 
     @media screen and (min-width:1024px) {
-        .article5 {
+        .article4 {
             margin-left:20%;
         }
     }
